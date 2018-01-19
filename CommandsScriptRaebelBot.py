@@ -24,4 +24,4 @@ async def on_message(message):
             await bot.send_message(message.channel, "I'd rate %s %d / 100" % (" ".join(ratedUser[1:]),rating))
             
 
-bot.run("NDAzMTg1MjUwMzg3MjMwNzIx.DUJ-fA.Bgi13DRka-o_RY2Vw1Jjrh0v4AA")
+bot.run("TOKEN")
