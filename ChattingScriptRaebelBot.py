@@ -32,4 +32,4 @@ async def on_message(message):
             if i in " ".join(words):
                 await bot.send_message(message.channel, "The ceiling is up, <@%s>" % (SenderID))
 
-bot.run("NDAzMTg1MjUwMzg3MjMwNzIx.DUJ-fA.Bgi13DRka-o_RY2Vw1Jjrh0v4AA")
+bot.run("TOKEN")
